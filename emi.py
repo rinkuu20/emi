@@ -28,7 +28,7 @@ def main():
     st.sidebar.header("Loan Details")
 
     # User inputs
-    principal = st.sidebar.number_input("Principal Amount ($)", min_value=0.0, format="%.2f")
+    principal = st.sidebar.number_input("Principal Amount (Rs.)", min_value=0.0, format="%.2f")
     annual_interest_rate = st.sidebar.number_input("Annual Interest Rate (%)", min_value=0.0, format="%.2f")
     tenure_years = st.sidebar.number_input("Tenure (Years)", min_value=1, format="%d")
 
