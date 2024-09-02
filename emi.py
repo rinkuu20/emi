@@ -25,7 +25,7 @@ def calculate_emi(principal, annual_interest_rate, tenure_years):
 def main():
     st.title("EMI Calculator")
 
-    st.sidebar.header("Loan Details")
+    st.sidebar.header("Loan Details RINKU")
 
     # User inputs
     principal = st.sidebar.number_input("Principal Amount (Rs.)", min_value=0.0, format="%.2f")
